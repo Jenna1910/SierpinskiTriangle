@@ -2,13 +2,13 @@ public void setup(){
   size(600,600);
   background(0,0,0);
 }
-int triangle = 200;
+int tri = 200;
 public void draw(){
-  sierpinski(20,580,triangle);
+  sierpinski(20,580,tri);
 }
 public void mousePressed(){
   background(0,0,0);
-  triangle+=20;
+  tri+=20;
 }
 public void sierpinski(int x, int y, int len) 
 {
